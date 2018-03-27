@@ -40,13 +40,13 @@ pages_list:
 #  Feed: '/atom.xml'
 
 # Jekyll-maps
-maps:
-  google:
-    api_key: AIzaSyBct2XbsTlBRdxDxxFubmyMIe2TPaSMUzE
+#maps:
+#  google:
+#    api_key: AIzaSyBct2XbsTlBRdxDxxFubmyMIe2TPaSMUzE
 
 # Gems
 gems:
   - jekyll-paginate
   - jekyll-gist
   - jekyll-redirect-from
-  - jekyll-maps
+#  - jekyll-maps

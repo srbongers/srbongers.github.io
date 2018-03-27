@@ -11,9 +11,11 @@ Room C3.248
 
 email: srbongers[at]gmail[dot]com
 
+<!---
 {% google_map
    zoom="10"
    latitude="52.354687"
    longitude="4.955403"
    width="300" height="300"
    marker_title="Science Park 904"%}
+--->
