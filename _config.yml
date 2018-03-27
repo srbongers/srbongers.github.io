@@ -44,6 +44,9 @@ pages_list:
 #  google:
 #    api_key: AIzaSyBct2XbsTlBRdxDxxFubmyMIe2TPaSMUzE
 
+# Google Analytics
+google_analytics: UA-116419547-1
+
 # Gems
 gems:
   - jekyll-paginate
