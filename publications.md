@@ -22,7 +22,7 @@ Transfer Learning_, arXiv:1707.06422 (2017) [[link](https://arxiv.org/abs/1707.0
 ## Peer-reviewed publications 
 
 - P.K. Rubenstein*, S. Weichwald*, S. Bongers, J.M. Mooij, D. Janzing, M. Grosse-Wentrup and
-B. Schölkopf, _Causal Consistency of Structural Equation Models_, [UAI 2017](http://auai.org/uai2017/index.php), *equal contribution, [[pdf](http://auai.org/uai2017/proceedings/papers/11.pdf),[supplement](http://auai.org/uai2016/proceedings/supp/247_supp.pdf), [link (arXiv)](https://arxiv.org/abs/1603.00929)]
+B. Schölkopf, _Causal Consistency of Structural Equation Models_, [UAI 2017](http://auai.org/uai2017/index.php), *equal contribution, [[pdf](http://auai.org/uai2017/proceedings/papers/11.pdf),[supplement](http://auai.org/uai2016/proceedings/supp/247_supp.pdf), [link (arXiv)](https://arxiv.org/abs/1707.00819)]
 
 ## Thesis
 
