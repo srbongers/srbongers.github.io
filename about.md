@@ -3,28 +3,33 @@ layout: page
 title: About
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+<img class="img-circle" src="/assets/ProfilePicture.jpg" width="200"
+alt="Portrait" align="right" style="margin-right:50px">
 
-In the novel, *The Strange Case of Dr. Jekyll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+Prior to starting my PhD, I studied a MSc in Mathematics, where I was supervised by [Dr. Urs
+Scrheiber](https://ncatlab.org/nlab/show/Urs+Schreiber) for my thesis.
 
-There are currently two themes built on Poole:
+Before that, I studied for a BSc in Mathematics and a BSc in Physics and Astronomy. 
+During my studies I had a short interlude in particle physics research at [CERN](https://home.cern/). 
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+## Curriculum Vitae
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+[Download CV](/assets/CVBongers.pdf)
 
-## Setup
+{% if site.github_username %}
+{% if site.google_scholar %}
+{% if site.linkedin %}
+  <a href="https://github.com/{{ site.github_username }}">
+  <i class="fa fa-github" style="font-size:40px;color:gray;"></i> 
+  </a> &nbsp;&nbsp;
+  <a href="{{ site.google_scholar }}">
+  <i class="fa fa-graduation-cap" style="font-size:40px;color:gray;"></i> 
+  </a> &nbsp;&nbsp;
+  <a href="{{ site.linkedin }}">
+  <i class="fa fa-linkedin" style="font-size:40px;color:gray;"></i> 
+  </a>
+{% endif %}
+{% endif %}
+{% endif %}
 
-Some fun facts about the setup of this project include:
 
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!

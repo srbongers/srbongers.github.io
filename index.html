@@ -3,31 +3,33 @@ layout: default
 title: Home
 ---
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <article class="post">
-    <h1 class="post-title">
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
+<img class="img-circle" src="/assets/ProfilePicture.jpg" width="200"
+alt="Portrait" align="left" style="margin-right:50px">
 
-    <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
+<p>I am a third-year PhD student in Artificial Intelligence at the University of Amsterdam,
+supervised by <a href="https://staff.fnwi.uva.nl/j.m.mooij" class="btn">Dr. Joris Mooij</a>. 
+My research is focused on learning parsimoniuos causal representations of complex dynamical
+systems.
+</p>
 
-    {{ post.content }}
-  </article>
-  {% endfor %}
-</div>
+{% if site.github_username %}
+{% if site.google_scholar %}
+{% if site.linkedin %}
+  <a href="https://github.com/{{ site.github_username }}">
+  <i class="fa fa-github" style="font-size:40px;color:gray;"></i> 
+  </a> &nbsp;&nbsp;
+  <a href="{{ site.google_scholar }}">
+  <i class="fa fa-graduation-cap" style="font-size:40px;color:gray;"></i> 
+  </a> &nbsp;&nbsp;
+  <a href="{{ site.linkedin }}">
+  <i class="fa fa-linkedin" style="font-size:40px;color:gray;"></i> 
+  </a>
+{% endif %}
+{% endif %}
+{% endif %}
 
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    <a class="pagination-item newer" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Newer</a>
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div>
+<hr>
+
+
+
+
