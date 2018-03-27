@@ -6,10 +6,8 @@ title: About
 <img class="img-circle" src="/assets/ProfilePicture.jpg" width="200"
 alt="Portrait" align="right" style="margin-right:50px">
 
-Prior to starting my PhD, I studied a MSc in Mathematics, where I was supervised by [Dr. Urs
-Scrheiber](https://ncatlab.org/nlab/show/Urs+Schreiber) for my thesis.
+Prior to my PhD, I obtained a MSc degree in Mathematics, where [Dr. Urs Scrheiber](https://ncatlab.org/nlab/show/Urs+Schreiber) was my thesis superviser. Before that, I did a BSc in both Mathematics and in Physics and Astronomy. 
 
-Before that, I studied for a BSc in Mathematics and a BSc in Physics and Astronomy. 
 During my studies I had a short interlude in particle physics research at [CERN](https://home.cern/). 
 
 ## Curriculum Vitae

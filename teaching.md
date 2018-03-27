@@ -3,7 +3,7 @@ layout: page
 title: Teaching 
 ---
 
-I am an teaching assistent for the following course:
+I am a teaching assistent for the following course:
 
 * Marchine Learning 2, 2018 (University of Amsterdam)
 
