@@ -3,12 +3,9 @@ layout: page
 title: Teaching 
 ---
 
-I am a teaching assistent for the following course:
-
-* Marchine Learning 2, 2018 (University of Amsterdam)
-
 I was a teaching assitent for the following courses:
 
+* Marchine Learning 2, 2018 (Master course - University of Amsterdam)
 * Machine Learning 2, 2017 (Master course - University of Amsterdam)
 * Mathematical Principles of Pattern Recognition, 2016 (Bachelor course - University of Amsterdam)
 * Machine Learning 1, 2015 (Master course - University of Amsterdam)
