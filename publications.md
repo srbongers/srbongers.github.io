@@ -9,11 +9,7 @@ title: Publications
 the stochastic case_, arXiv:1803.08784 (2018) [[link](https://arxiv.org/abs/1803.08784), [pdf
 (arXiv)](https://arxiv.org/pdf/1803.08784)]
 
-- P.K. Rubenstein, S. Bongers, J.M. Mooij and B. Schölkopf, _From Deterministic ODEs to
-Dynamic Structural Causal Models_, arXiv:1608.08028 (2016) [[link](https://arxiv.org/abs/1608.08028), [pdf (arXiv)](https://arxiv.org/pdf/1608.08028)] 
-
-- S. Bongers, J. Peters, B. Schölkopf and J.M. Mooij, _Structural Causal Models: Cycles,
-Marginalizations, Exogenous Reparametrizations and Reductions_, arXiv:1611.06221 (2016) [[link](https://arxiv.org/abs/1611.06221), [pdf (arXiv)](https://arxiv.org/pdf/1611.06221)]
+- S. Bongers, J. Peters, B. Schölkopf and J.M. Mooij, _Theoretical Aspects of Cyclic Structural Causal Models_, arXiv:1611.06221 (2018) [[link](https://arxiv.org/abs/1611.06221), [pdf (arXiv)](https://arxiv.org/pdf/1611.06221)]
 
 - S. Magliacane, T. van Ommen, T. Claassen, S. Bongers, P. Versteeg and J.M. Mooij, _Causal
 Transfer Learning_, arXiv:1707.06422 (2017) [[link](https://arxiv.org/abs/1707.06422), [pdf
@@ -21,8 +17,11 @@ Transfer Learning_, arXiv:1707.06422 (2017) [[link](https://arxiv.org/abs/1707.0
 
 ## Peer-reviewed publications 
 
-- P.K. Rubenstein*, S. Weichwald*, S. Bongers, J.M. Mooij, D. Janzing, M. Grosse-Wentrup and
-B. Schölkopf, _Causal Consistency of Structural Equation Models_, [UAI 2017](http://auai.org/uai2017/index.php), *equal contribution, [[pdf](http://auai.org/uai2017/proceedings/papers/11.pdf),[supplement](http://auai.org/uai2016/proceedings/supp/247_supp.pdf), [link (arXiv)](https://arxiv.org/abs/1707.00819)]
+- P.K. Rubenstein, S. Bongers, J.M. Mooij and B. Schölkopf, _From Deterministic ODEs to
+Dynamic Structural Causal Models_, [UAI 2018](http://auai.org/uai2018/index.php), [[pdf](http://auai.org/uai2018/proceedings/papers/43.pdf), [supplement](http://auai.org/uai2018/proceedings/supplements/Supplementary-Paper43.pdf), [link (arXiv)](https://arxiv.org/abs/1608.08028)]
+
+- P.K. Rubenstein\*, S. Weichwald\*, S. Bongers, J.M. Mooij, D. Janzing, M. Grosse-Wentrup and
+B. Schölkopf, _Causal Consistency of Structural Equation Models_, [UAI 2017](http://auai.org/uai2017/index.php), *equal contribution, [[pdf](http://auai.org/uai2017/proceedings/papers/11.pdf), [supplement](http://auai.org/uai2017/proceedings/supplements/11.pdf), [link (arXiv)](https://arxiv.org/abs/1707.00819)]
 
 ## Thesis
 
