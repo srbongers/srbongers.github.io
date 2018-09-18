@@ -11,8 +11,7 @@ the stochastic case_, arXiv:1803.08784 (2018) [[link](https://arxiv.org/abs/1803
 
 - S. Bongers, J. Peters, B. Schölkopf and J.M. Mooij, _Theoretical Aspects of Cyclic Structural Causal Models_, arXiv:1611.06221 (2018) [[link](https://arxiv.org/abs/1611.06221), [pdf (arXiv)](https://arxiv.org/pdf/1611.06221)]
 
-- S. Magliacane, T. van Ommen, T. Claassen, S. Bongers, P. Versteeg and J.M. Mooij, _Causal
-Transfer Learning_, arXiv:1707.06422 (2017) [[link](https://arxiv.org/abs/1707.06422), [pdf
+- S. Magliacane, T. van Ommen, T. Claassen, S. Bongers, P. Versteeg and J.M. Mooij, _Domain Adaptation by Using Causal Inference to Predict Invariant Conditional Distributions_, arXiv:1707.06422 (2018) [[link](https://arxiv.org/abs/1707.06422), [pdf
 (arXiv)](https://arxiv.org/pdf/1707.06422)]
 
 ## Peer-reviewed publications 
