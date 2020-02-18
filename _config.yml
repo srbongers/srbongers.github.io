@@ -1,0 +1,59 @@
+title: Stephan Bongers
+author: srbongers
+email: srbongers@gmail.com
+url: www.stephanbongers.com
+show_excerpts: true # set to true to show excerpts on the homepage
+
+sass:
+  sass_dir: _sass
+
+portfolio:
+  name: Stephan Bongers
+  tagline: PhD Candidate
+  company: UvA
+  company-link: http://amlab.science.uva.nl
+  cv: /assets/miscs/CVStephanBongers.pdf
+  social_links:
+    github: srbongers 
+    linkedIn: in/srbongers
+    googlescholar: UGhA4YgAAAAJ&hl=nl
+
+collections:
+  publications:
+    order:
+      - marginal_scm.md
+      - rde2scm.md
+      - ccm.md
+      - dom_adaptation.md
+      - dscm.md
+      - consistent_sem.md
+      - thesis.md
+    output: true
+  bibtex:
+    output: true
+  miscs:
+    output: false
+  info:
+    output: false
+
+defaults:
+  -
+    scope:
+      path: "_bibtex"
+    values:
+      layout: "bibtex"
+  -
+    scope:
+      path: "_publications"
+    values:
+      layout: "publication"
+  -
+    scope:
+      path: "_miscs"
+    values:
+      layout: "default"
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+#  - jekyll-feed

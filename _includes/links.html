@@ -1,0 +1,31 @@
+{% capture link-type %}{{ link | first | first }}{% endcapture %}
+{% capture link-url %}{{ link | first | last }}{% endcapture %}
+{% case link-type %}
+{% when "link-nlab" %}
+<i class="icon-link"></i>
+<a href="{{ link-url }}">nLab</a>
+{% when "link-archive" %}
+<i class="icon-link"></i>
+<a href="{{ link-url }}">archive</a>
+{% when "link-thesis-archive" %}
+<i class="icon-link"></i>
+<a href="{{ link-url }}">official thesis archive</a>
+{% when "link-arxiv" %}
+<i class="icon-link"></i>
+<a href="{{ link-url }}">arXiv</a>
+{% when "pdf-arxiv" or "pdf" %}
+<i class="icon-file-pdf"></i>
+<a href="{{ link-url }}">pdf</a>
+{% when "supplement" %}
+<i class="icon-attach"></i>
+<a href="{{ link-url }}">supplement</a>
+{% when "abstract" %}
+<i class="icon-file-pdf"></i>
+<a href="{{ link-url }}">abstract</a>
+{% when "poster" %}
+<i class="icon-slideshare"></i>
+<a href="{{ link-url }}">poster</a>
+{% endcase %}
+{% if forloop.last == false %}
+&nbsp / &nbsp
+{% endif %}

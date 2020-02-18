@@ -1,0 +1,44 @@
+<li>
+    <div class="text">
+    <a class="publication-link-home" id="black" href="{{ publication.url | relative_url }}">
+        <h3 class="publication-title-home">{{ publication.title | escape }}</h3>
+    </a>
+    </div>
+    <div class="publication-author-home">{{ publication.author }}</div>
+    {%- if publication.venue -%}
+    <div class="publication-venue-home">
+        {{- publication.venue -}}
+        {%- if publication.venue-link and publication.venue-acronym -%}
+            &nbsp (<a href="{{ publication.venue-link }}">{{ publication.venue-acronym }}</a>)
+        {%- endif -%} 
+        {%- if publication.venue-year -%}
+            &nbsp ({{- publication.venue-year -}})
+        {%- endif -%}
+    </div>
+    {%- endif -%}
+    <div class="publication-summary-home">
+        <div class="publication-image-home">
+            <div class="publication-square-home">
+                <a id="black" href="{{ publication.url | relative_url }}">
+                    <img src="{{ publication.image | relative_url }}" alt="{{ publication.title }}" style="width:195px;height:195px;">
+                </a>
+            </div>
+        </div>
+        <div class="publication-text-home">
+            {%- if site.show_excerpts -%}
+            {{ publication.excerpt | truncatewords: 110 }}
+            {%- endif -%}
+            <div class="publication-meta-home">
+                {% for link in publication.links %}
+                {% include links.html %}
+                {% endfor %}
+                {% if publication.bibtex %}
+                {% assign bibtex = site.bibtex | where: 'title', publication.title | first %}
+                &nbsp / &nbsp
+                <i class="icon-tag"></i>
+                <a href="{{ bibtex.url | relative_url }}">bibtex</a>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</li>

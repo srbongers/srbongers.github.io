@@ -1,0 +1,43 @@
+---
+layout: default
+---
+<div class="page-heading-container">
+    <a class="publication-link" id="black" onclick="window.history.back()">
+        <h3 id="page-heading-back"><i class="icon-angle-left"></i>Back</h3>
+    </a>
+    
+    {% assign publication = site.publications | where: 'title', page.title | first %}
+    <a class="publication-link" id="black" href="{{ publication.url | relative_url }}">
+        <h2 class="publication-title">{{ page.title | escape }}</h2>
+    </a>
+    <div class="publication-author">{{ page.author }}</div>
+    
+    {%- if page.venue -%}
+    <div class="publication-venue">{{ page.venue }} 
+        {%- if page.venue-link and page.venue-acronym -%} 
+            &nbsp (<a href="{{ page.venue-link }}">{{ page.venue-acronym }}</a>)
+        {%- endif -%} 
+        {%- if page.venue-year -%} 
+            &nbsp ({{ page.venue-year }})
+        {%- endif -%}
+    </div>
+    {%- endif -%}
+
+    <pre>
+        <code id="bib"></code>
+    </pre>
+    <script>
+        var txtFile = new XMLHttpRequest();
+        var allText = "file not found";
+        txtFile.onreadystatechange = function () {
+        if (txtFile.readyState === XMLHttpRequest.DONE && txtFile.status == 200) {
+            allText = txtFile.responseText;
+        }
+        document.getElementById('bib').innerHTML = allText;
+        }
+        txtFile.open("GET", '{{ page.bibtex }}', true);
+        txtFile.send(null);
+    </script>
+    <i class="icon-download"></i>
+    <a href="{{ page.bibtex | relative_url }}">bibtex</a>
+</div>

@@ -1,0 +1,35 @@
+---
+layout: default
+---
+<div class="page-heading-container">
+    <a class="publication-link" id="black" onclick="window.history.back()"><h3 id="page-heading-back"><i class="icon-angle-left"></i>Back</h3></a>
+    <a class="publication-link" id="black" href="{{ page.url | relative_url }}">
+        <h2 class="publication-title">{{ page.title | escape }}</h2>
+    </a>
+    <div class="publication-author">{{ page.author }}</div>
+    {%- if page.venue -%}
+    <div class="publication-venue">{{- page.venue -}} 
+        {%- if page.venue-link and page.venue-acronym -%} &nbsp (<a href="{{ page.venue-link }}">{{ page.venue-acronym }}</a>) {%- endif -%} 
+        {%- if page.venue-year -%} &nbsp ({{ page.venue-year }}){%- endif -%}
+    </div>
+    {%- endif -%}
+    <div class="publication">
+        <div class="publication-image">
+            <div class="publication-square">
+                <img src="{{ page.image | relative_url }}" alt="{{ page.title }}" style="width:235px;height:235px;">
+            </div>
+        </div>
+        {{ content | remove: '<p>' | remove: '</p>' }}
+    </div>
+    <div class="publication-meta">
+        {% for link in page.links %}
+        {% include links.html %}
+        {% endfor %}
+        {% if page.bibtex %}
+        {% assign bibtex = site.bibtex | where: 'title', page.title | first %}
+        &nbsp / &nbsp
+        <i class="icon-tag"></i>
+        <a href="{{ bibtex.url | relative_url }}">bibtex</a>
+        {% endif %}
+    </div>
+</div>

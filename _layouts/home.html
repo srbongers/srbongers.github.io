@@ -1,0 +1,84 @@
+---
+layout: default
+---
+<ul class="page-heading">
+    <h1 id="page-heading-label"><a id="gray" name="about">About</a></h1>
+    <div class="text">
+    {{ content }}
+    </div>
+</ul>
+
+<ul class="page-heading">
+    <h1 id="page-heading-label"><a id="gray" name="news">News</a></h1>
+    <div class="text">
+        {% assign news = site.info | where: 'title', "News" | first %}
+        {{ news | replace: '<ul>', '<ul class="bullet">' }}
+    </div>
+</ul>
+
+{%- if site.publications.size > 0 -%}
+<ul class="page-heading">
+    <li>
+        <h1 id="page-heading-label"><a id="gray" name="publications">Publications</a></h1>
+        <h3 id="page-heading-sublabel">Preprints</h3>
+    </li>
+
+    {% assign preprints = site.publications | where: 'type', "preprint" %}
+    {%- for publication in preprints -%}
+    {% include publications.html %}
+    {%- endfor -%}
+
+    <li>
+        <h3 id="page-heading-sublabel">Peer-reviewed papers</h3>
+    </li>
+
+    {% assign published_papers = site.publications | where: 'type', "published" %}
+    {%- for publication in published_papers -%}
+    {% include publications.html %}
+    {%- endfor -%}
+
+    <li>
+        <h3 id="page-heading-sublabel">Master thesis</h3>
+    </li>
+
+    {% assign thesis = site.publications | where: 'type', "thesis" %}
+    {%- for publication in thesis -%}
+    {% include publications.html %}
+    {%- endfor -%}
+</ul>
+{%- endif -%}
+
+<ul class="page-heading">
+    <li>
+        <h1 id="page-heading-label"><a id="gray" name="misc">Miscellaneous</a></h1>
+    </li>
+
+    {%- for misc in site.miscs -%}
+    {% include miscs.html %}
+    {%- endfor -%}
+</ul>
+
+<ul class="page-heading">
+    <h1 id="page-heading-label"><a id="gray" name="cv">Curriculum Vitae</a></h1>
+    <div class="cv-square">
+        <div class="cv">
+        <i class="icon-download"></i>
+        <a href="{{ site.portfolio.cv | relative_url }}">Download CV</a>
+        </div>
+    </div>
+</ul>
+
+<ul class="page-heading">
+    <h1 id="page-heading-label"><a id="gray" name="contact">Contact</a></h1>
+    <span>Get in Touch<i class="icon-angle-right"></i></span><i class="icon-mail"></i>&nbsp srbongers [at] gmail [dot] com <br><br>
+    <div class="visit-summary"> 
+        <div class="visit-square">
+            <span>Visiting address<i class="icon-angle-right"></i></span>
+        </div>
+        <div class="visit-text"><i class="icon-location"></i>&nbsp </span></div>
+        <div class="visit-text">
+        {% assign contact = site.info | where: 'title', "Contact" | first %}
+        {{ contact | remove: '<p>' | remove: '</p>' }}
+        </div>
+    </div>
+</ul>
