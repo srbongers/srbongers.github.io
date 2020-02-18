@@ -5,7 +5,7 @@ title: News
 * May 2019: Our [UAI submission]({% link _publications/ccm.md %}) was [accepted](http://auai.org/uai2019/accepted.php).
 * Sept 2018: Our [NeurIPS submission]({% link _publications/dom_adaptation.md %}) on causal transfer learning was [accepted](https://nips.cc/Conferences/2018/Schedule?showEvent=12025).
 * Aug 2018: I presented [our recent work](#/miscs/bridgingthegaprde2scm.md) at the [Causal Inference Workshop](https://sites.google.com/view/causaluai2018/home) ([UAI 2018](http://auai.org/uai2018/index.php)).
-* Jul 2018: Attending the [DLRL summer school](https://dlrlsummerschool.ca/past-years) ([videos](http://videolectures.net/DLRLsummerschool2018_toronto)) - exciting!
+* Jul 2018: Attending the [DLRL summer school](https://dlrlsummerschool.ca/past-years) ([videos](http://videolectures.net/DLRLsummerschool2018_toronto)).
 * Jun 2018: Our [UAI submission]({% link _publications/dscm.md %}) was [accepted](http://auai.org/uai2018/accepted.php).
 * Jun 2017: Attending the [MLSS summer school](http://mlss.tuebingen.mpg.de/2017) ([videos](https://www.youtube.com/playlist?list=PLqJm7Rc5-EXFUOvoYCdKikfck8YeUCnl9)).
 * Jun 2017: Our [UAI submission]({% link _publications/consistent_sem.md %}) was [accepted](http://auai.org/~w-auai/uai2017/accepted.php).
