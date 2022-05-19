@@ -7,7 +7,11 @@
     <div class="publication-author-home">{{ publication.author }}</div>
     {%- if publication.venue -%}
     <div class="publication-venue-home">
-        {{- publication.venue -}}
+        {%- if publication.venue-site -%}
+            <a href="{{- publication.venue -}}">{{ publication.venue }}</a>
+        {%- else -%}
+            {{- publication.venue -}}
+        {%- endif -%} 
         {%- if publication.venue-link and publication.venue-acronym -%}
             &nbsp (<a href="{{ publication.venue-link }}">{{ publication.venue-acronym }}</a>)
         {%- endif -%} 
