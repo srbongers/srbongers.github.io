@@ -24,7 +24,7 @@ layout: default
     </li>
 
     {% assign preprints = site.publications | where: 'type', "preprint" %}
-    {%- for publication in preprints reversed -%}
+    {%- for publication in preprints -%}
     {% include publications.html %}
     {%- endfor -%}
 
@@ -33,7 +33,7 @@ layout: default
     </li>
 
     {% assign published_papers = site.publications | where: 'type', "published" %}
-    {%- for publication in published_papers -%}
+    {%- for publication in published_papers reversed -%}
     {% include publications.html %}
     {%- endfor -%}
 
