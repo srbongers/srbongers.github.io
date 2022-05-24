@@ -24,7 +24,7 @@ layout: default
     </li>
 
     {% assign preprints = site.publications | where: 'type', "preprint" %}
-    {%- for publication in preprints -%}
+    {%- for publication in preprints reversed -%}
     {% include publications.html %}
     {%- endfor -%}
 

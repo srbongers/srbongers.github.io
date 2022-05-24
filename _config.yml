@@ -20,14 +20,6 @@ portfolio:
 
 collections:
   publications:
-    order:
-      - marginal_scm.md
-      - rde2scm.md
-      - ccm.md
-      - dom_adaptation.md
-      - dscm.md
-      - consistent_sem.md
-      - thesis.md
     output: true
   bibtex:
     output: true

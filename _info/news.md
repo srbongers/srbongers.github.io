@@ -2,9 +2,9 @@
 title: News
 ---
 
-* Nov 2021: Our paper [Foundations of Structural Causal Models with Cycles and Latent Variables]({% link _publications/marginal_scm.md %}) was [accepted](https://imstat.org/journals-and-publications/annals-of-statistics).
+* Nov 2021: Our paper [Foundations of Structural Causal Models with Cycles and Latent Variables]({% link _publications/2021-marginal_scm.md %}) was [accepted](https://imstat.org/journals-and-publications/annals-of-statistics).
 * Nov 2020: I joined the [Pattern Recognition Laboratory](https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/intelligent-systems/pattern-recognition-bioinformatics) at the [TU Delft](https://www.tudelft.nl).
-* May 2019: Our [UAI submission]({% link _publications/ccm.md %}) was [accepted](http://auai.org/uai2019/accepted.php).
+* May 2019: Our [UAI submission]({% link _publications/2019-07-ccm.md %}) was [accepted](http://auai.org/uai2019/accepted.php).
 * Sept 2018: Our [NeurIPS submission]({% link _publications/dom_adaptation.md %}) on causal transfer learning was [accepted](https://nips.cc/Conferences/2018/Schedule?showEvent=12025).
 * Aug 2018: I presented [our recent work](#/miscs/bridgingthegaprde2scm.md) at the [Causal Inference Workshop](https://sites.google.com/view/causaluai2018/home) ([UAI 2018](http://auai.org/uai2018/index.php)).
 * Jul 2018: Attending the [DLRL summer school](https://dlrlsummerschool.ca/past-years) ([videos](http://videolectures.net/DLRLsummerschool2018_toronto)).
