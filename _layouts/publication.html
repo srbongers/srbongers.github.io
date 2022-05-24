@@ -8,9 +8,18 @@ layout: default
     </a>
     <div class="publication-author">{{ page.author }}</div>
     {%- if page.venue -%}
-    <div class="publication-venue">{{- page.venue -}} 
-        {%- if page.venue-link and page.venue-acronym -%} &nbsp (<a href="{{ page.venue-link }}">{{ page.venue-acronym }}</a>) {%- endif -%} 
-        {%- if page.venue-year -%} &nbsp ({{ page.venue-year }}){%- endif -%}
+    <div class="publication-venue"> 
+        {%- if page.venue-site -%}
+            <a href="{{- page.venue-site -}}">{{ page.venue }}</a> <a href="{{- page.link -}}">{{ page.volume }}</a>
+        {%- else -%}
+            {{- page.venue -}}
+        {%- endif -%} 
+        {%- if page.venue-link and page.venue-acronym -%}
+            &nbsp (<a href="{{ page.venue-link }}">{{ page.venue-acronym }}</a>)
+        {%- endif -%} 
+        {%- if page.venue-year -%}
+            &nbsp ({{- page.venue-year -}})
+        {%- endif -%}
     </div>
     {%- endif -%}
     <div class="publication">
