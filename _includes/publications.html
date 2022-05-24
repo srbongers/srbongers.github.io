@@ -8,7 +8,8 @@
     {%- if publication.venue -%}
     <div class="publication-venue-home">
         {%- if publication.venue-site -%}
-            <a href="{{- publication.venue -}}">{{ publication.venue }}</a>
+            <a href="{{- publication.venue-site -}}">{{ publication.venue }}</a> <a href="{{- publication.link -}}">{{ publication.volume }}</a>
+
         {%- else -%}
             {{- publication.venue -}}
         {%- endif -%} 

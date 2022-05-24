@@ -3,6 +3,8 @@ title:  "Foundations of Structural Causal Models with Cycles and Latent Variable
 type: "published"
 venue: "Annals of Statistics"
 venue-site: "https://imstat.org/journals-and-publications/annals-of-statistics/"
+volume: "49(5):2885-2915, 2021"
+link: "https://projecteuclid.org/journals/annals-of-statistics/volume-49/issue-5/Foundations-of-structural-causal-models-with-cycles-and-latent-variables/10.1214/21-AOS2064.full"
 author: "S. Bongers, P. Forré, J. Peters and J.M. Mooij"
 image: "/assets/images/marginal_scm.png"
 bibtex: "/assets/bibtex/marginal_scm.bib"
