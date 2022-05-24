@@ -2,7 +2,7 @@
 title: News
 ---
 
-* Nov 2021: Our paper [Foundations of Structural Causal Models with Cycles and Latent Variables]({% link publications/marginal_scm.md %}) was [accepted](https://imstat.org/journals-and-publications/annals-of-statistics).
+* Nov 2021: Our paper [Foundations of Structural Causal Models with Cycles and Latent Variables]({% link _publications/marginal_scm.md %}) was [accepted](https://imstat.org/journals-and-publications/annals-of-statistics).
 * Nov 2020: I joined the [Pattern Recognition Laboratory](https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/intelligent-systems/pattern-recognition-bioinformatics) at the [TU Delft](https://www.tudelft.nl).
 * May 2019: Our [UAI submission]({% link _publications/ccm.md %}) was [accepted](http://auai.org/uai2019/accepted.php).
 * Sept 2018: Our [NeurIPS submission]({% link _publications/dom_adaptation.md %}) on causal transfer learning was [accepted](https://nips.cc/Conferences/2018/Schedule?showEvent=12025).
