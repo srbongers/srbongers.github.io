@@ -9,9 +9,9 @@ sass:
 
 portfolio:
   name: Stephan Bongers
-  tagline: PhD Candidate
-  company: UvA
-  company-link: http://amlab.science.uva.nl
+  tagline: Postdoctoral Researcher
+  company: TUDelft
+  company-link: https://www.tudelft.nl
   cv: /assets/miscs/CVStephanBongers.pdf
   social_links:
     github: srbongers 
