@@ -5,6 +5,7 @@ title: News
 * Dec 2022: I gave a talk on the [Foundations of structural causal models with cycles and latent variables](https://www.cmstatistics.org/RegistrationsV2/CMStatistics2022/viewSubmission.php?in=1349&token=93q2277sq8o285s3r17p994979031173) at [CMStatistics2022 (ERCIM 2022)](https://www.cmstatistics.org/CMStatistics2022/index.php).
 * Nov 2022: I joined the [Mercury Machine Learning Lab](https://www.icai.ai/labs/mercury-machine-learning-lab-amsterdam) at the [TU Delft](https://www.tudelft.nl).
 * Jun 2022: I defended my PhD thesis [Causal modeling & dynamical systems: A new perspective on feedback](https://dare.uva.nl/search?identifier=652541c6-8959-498c-8958-fd28f198bfdf). A [recordning](https://webcolleges.uva.nl/Mediasite/Play/0b4092e0616645b799ce0be91fc7ea721d) of the event is available.
+* Mar 2022: I was interviewed during the [Convergence Career & Talent Festival](https://convergence.nl/convergence-career-talent-festival/)
 * Nov 2021: Our paper [Foundations of Structural Causal Models with Cycles and Latent Variables]({% link _publications/2021-marginal_scm.md %}) was [accepted](https://imstat.org/journals-and-publications/annals-of-statistics).
 * Nov 2020: I joined the [Pattern Recognition Laboratory](https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/intelligent-systems/pattern-recognition-bioinformatics) at the [TU Delft](https://www.tudelft.nl).
 * May 2019: Our [UAI submission]({% link _publications/2019-07-ccm.md %}) was [accepted](http://auai.org/uai2019/accepted.php).

@@ -2,7 +2,7 @@
 layout: home
 ---
 
-I am a postdoctoral researcher at the Sequential Decision Making group at the <a href="https://www.tudelft.nl">Delft Univeristy of Technology</a>, in the Netherlands. 
+I am a postdoctoral researcher at the Sequential Decision Making group at the <a href="https://www.tudelft.nl">Delft Univeristy of Technology</a> in the Netherlands. 
 
 I am broadly interested in statistics, machine and reinforcement learning, with an eye towards  causal, sequential and anytime-valid inference. 
 
